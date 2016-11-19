@@ -1,0 +1,62 @@
+body {
+    background-color: #222;
+    font-family: Courier, fixed-width;
+}
+
+a {
+    color: #BBB
+}
+
+a:visited {
+    color: #BBF
+}
+
+h1, h2, h3 {
+
+}
+
+#container {
+    background-color: #444;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-image: linear-gradient(135deg, #223, #232);
+    background-color: #363;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    color: #BBB;
+    padding: 10px
+}
+
+#nav {
+    width: 200px;
+    float: left;
+}
+
+#nav .selected {
+    font-weight: bold;
+}
+
+#nav .ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#main {
+    width: 780px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
